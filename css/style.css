@@ -1,46 +1,38 @@
-p {
-  text-align: justify;
-  font-size: 20px;
-  margin-top: 5px;
-  font-family: serif;
-}
-h3 {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  color: chartreuse;
+* {
+  margin: 0;
+  padding: 0;
+
+  color: white;
+  box-sizing: border-box;
 }
 body {
-  margin: 3px 0px 15px 10px;
-  background-color: cadetblue;
-  font-size: 18px;
+  background-image: linear-gradient(45deg, black, blue);
 }
-h5 {
-  font-family: cursive;
+main {
+  margin: 3% 5%;
+}
+.text-center {
   text-align: center;
-  color: rgb(0, 49, 49);
 }
-img {
-  width: 75%;
-  margin: auto;
-  display: block;
-  border-radius: 10px;
+.justified-text {
+  text-align: justify;
 }
-img:hover {
+.img-box {
+  width: 100%;
+}
+.img-box img {
+  width: 100%;
+}
+.btn {
+  width: 25%;
+  padding: 15px;
   cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(45deg, green, black);
+  margin: 0 35%;
 }
-button {
-  width: 15%;
-  margin: auto;
-  margin-top: 10px;
-  padding: 5px;
-  display: block;
-  border-radius: 20px;
-  color: aqua;
-  font-size: 15px;
-  background-color: black;
-}
-button:hover {
-  background-color: rgb(79, 47, 195);
-  color: rgb(255, 253, 253);
-  cursor: pointer;
+.btn:hover {
+  background-image: linear-gradient(45deg, black, green);
 }
