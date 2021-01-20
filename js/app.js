@@ -33,7 +33,7 @@ var img = document.querySelector("img");
 var cnt = 1;
 
 btn.addEventListener("click", function () {
-  if (cnt == 15) cnt = 0;
+  if (cnt == 27) cnt = 0;
   img.src = pics[cnt];
   cnt = cnt + 1;
 });
